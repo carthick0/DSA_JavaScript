@@ -1,8 +1,8 @@
 function row(grid){
     let str=""
-    for(let i=0;i<grid.length;i++){
-        for(let j=0;j<grid[i].length;j++){
-            str+=grid[i][j]+" ";
+    for(let col=0;col<grid.length;col++){
+        for(let row=0;srow<grid[col].length;row++){
+            str+=grid[col][row]+" ";
         }
     }
     console.log(str)
